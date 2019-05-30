@@ -14,9 +14,8 @@ storage (session & local)
 
 
 Structure::
-Login 
-Dashboard =>(User specific)
-Navbar
+Dashboard = create account/sign up
+Navbar 
 Categories
 Admin screen
 Search => (Results with action) 
