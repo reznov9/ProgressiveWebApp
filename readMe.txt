@@ -1,5 +1,5 @@
 INSTALLATION::
-node 10
+node 10.15.1
 angular
 
 Used tech::
