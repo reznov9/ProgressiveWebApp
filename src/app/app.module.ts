@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { LoginComponentComponent } from './login-component/login-component.component';
+import { ModalComponentComponent } from './shared-components/modal-component/modal-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponentComponent,
+    ModalComponentComponent,
   ],
   imports: [
     BrowserModule,
