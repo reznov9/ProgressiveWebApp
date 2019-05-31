@@ -11,6 +11,8 @@ responsive design
 animation
 cache
 storage (session & local)
+ngRX store
+redux
 
 
 Structure::
@@ -41,3 +43,13 @@ https://developers.zomato.com/api
 apiCredentials - dcae82c45d42815d6e3d6386efc893d2
 prajjwal/apiCredentials - f711230437f5cc27c63153007ab6ae59
 https://developers.zomato.com/documentation#!/common/categories - APIs
+
+=======================================================
+ngRX store:::::
+https://github.com/ngrx/store
+https://github.com/ngrx/router-store
+https://github.com/ngrx/effects
+
+=======================================================
+angular material:::::::::
+https://material.angular.io/components
