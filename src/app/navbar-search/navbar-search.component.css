@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #cb202d;
+}
+.navbar-brand{
+    color: white;
+}
+.input-group{
+    /* width:22%; */
+    display: inline-flex;
+}
+.input-group :hover{
+    cursor: pointer;
+}
+.down-icon{
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.map-icon{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.search-icon{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.glyphicon{
+    top: 10px;
+    color: #A6AFB4;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+
+
+.form-control:focus{
+border-color: #ccc !important;
+box-shadow: none !important;
+}
+.input-group{
+    top: 8px;
+}
+.dropdown-menu{
+    width: 100%;
+    border-top: none !important;
+}
+.btn{
+    background-color: #cb202d;
+    left: 10px;
+    position: relative;
+    color: white;
+}
