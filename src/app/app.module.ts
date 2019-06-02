@@ -6,16 +6,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
-import { LoginComponentComponent } from './login-component/login-component.component';
-import { ModalComponentComponent } from './shared-components/modal-component/modal-component.component';
+import { NavbarSearchComponent } from './navbar-search/navbar-search.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponentComponent,
-    ModalComponentComponent,
+    NavbarSearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +21,8 @@ import { ModalComponentComponent } from './shared-components/modal-component/mod
     AppRoutingModule,
     MaterialModule,
     FlexLayoutModule,
-    HttpClientInMemoryWebApiModule.forRoot( InMemoryDataService, {dataEncapsulation : false})
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
